@@ -1,0 +1,22 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "This is a simple chat application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dayjs": "^1.11.13",
+    "ejs": "^3.1.9",
+    "emoji-picker-element": "^1.26.3",
+    "express": "^4.21.2",
+    "multer": "^2.0.1",
+    "socket.io": "^4.8.1"
+  }
+}
