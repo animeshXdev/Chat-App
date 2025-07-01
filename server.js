@@ -69,5 +69,5 @@ io.on('connection', (socket) => {
   });
 });
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 10000; // works fine; Render provides env.PORT
 server.listen(PORT, () => console.log(`✅ Server on http://localhost:${PORT}`));
